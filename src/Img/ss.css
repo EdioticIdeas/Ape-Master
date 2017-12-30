@@ -1,0 +1,221 @@
+
+.root{
+    -fx-background-color: #aaaaaa;
+}
+
+.titleupper{
+    -fx-background-color: #42535b;
+}
+
+.nav{
+    -fx-background-color:  #2A363B;
+}
+
+.mainscreentitle{
+     -fx-background-color:  #B4CDCD;
+}
+
+.dropdown{
+    -fx-background-color:  #B4CDCD;
+}
+.button{
+    -fx-background-color:  #2A363B;
+    -fx-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-text-fill: #ffffff;
+    
+}
+
+.split-pane:vertical > * > .split-pane-divider {
+   -fx-border-color:  transparent;
+   -fx-background-color: transparent;
+   -fx-background-insets: 0;
+}
+
+label{
+    -fx-text-fill: #ffffff
+}
+
+.context-menu {
+    
+/*    -fx-background-color: #2A363B;*/
+    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  
+/*    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em;  4 1 8 1 */
+}
+.menuitem{
+    -fx-text-fill: #ffffff
+}
+
+.menuitem:hover{
+    -fx-background-color:  #42535b;
+}
+.button:hover{
+    -fx-background-color: #42535b;
+}
+
+.button:focused {
+    -fx-background-color: #E84A5F;
+}
+
+.specialbutton{
+    -fx-background-color:  #2A363B;
+        textFill: "#fecea8eb"
+}
+
+.specialbutton:hover{
+    -fx-background-color:  #42535b;
+}
+
+.specialbutton:focused {
+    -fx-background-color: #2a353a;
+}
+
+.titlelable{
+    -fx-text-fill: #fffffff;
+}
+
+.menu{
+    -fx-background-color:  #42535b;
+}
+/** CSS **/
+.scrollpane{
+
+    -fx-border-color:derive(gray,80%);
+
+}
+
+ 
+
+
+
+.scrollpane .scroll-bar:horizontal ,
+
+.scrollpane  .scroll-bar:vertical{
+
+    -fx-background-color:transparent;
+
+ 
+
+}
+
+ 
+
+/* The increment and decrement button CSS class of scrollbar */
+
+.scrollpane .increment-button ,.scrollpane .decrement-button {
+
+    -fx-background-color:transparent;
+
+    -fx-border-color:derive(gray,80%);
+
+}
+
+ 
+
+/* The main scrollbar **track** CSS class  */
+
+.scrollpane .scroll-bar:horizontal .track ,
+
+.scrollpane .scroll-bar:vertical .track{
+
+     -fx-background-color: transparent;
+
+     -fx-border-color:derive(gray,80%);
+
+     -fx-background-radius: 0em;
+
+}
+
+ 
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+
+.scrollpane .scroll-bar:horizontal .thumb,
+
+.scrollpane .scroll-bar:vertical .thumb {
+
+    -fx-background-color:derive(black,90%);
+
+    -fx-background-insets: 0, 0, 0;
+
+    -fx-background-radius: 0em;
+
+ 
+
+}
+
+ 
+
+/* ------------------------------------------------------------------------------------- */
+
+/** EVENT CSS **/
+
+/* ------------------------------------------------------------------------------------- */
+
+ 
+
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+
+ 
+
+.scrollpane .scroll-bar:horizontal:hover .track ,
+
+.scrollpane .scroll-bar:horizontal:pressed .track ,
+
+.scrollpane .scroll-bar:vertical:hover .track,
+
+.scrollpane .scroll-bar:vertical:pressed .track{
+
+     -fx-background-color: derive(#434343,20%);
+
+ 
+
+     -fx-opacity: 0.2;
+
+     -fx-background-radius: 0em;
+
+ 
+
+}
+
+ 
+
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+
+.scrollpane .scroll-bar .thumb:hover,
+
+.scrollpane .scroll-bar .thumb:pressed{
+
+    -fx-background-color: derive(black,50%);
+
+}
+
+.scrollpane .increment-button:hover ,.scrollpane .decrement-button:hover {
+    -fx-background-color:derive(gray,100%);
+
+    -fx-border-color:derive(gray,80%); 
+
+    -fx-padding:10px;
+
+}
+.main{
+    -fx-background-color: #ccccff;
+   
+    -fx-background-repeat: no-repeat;
+}
+
+.mask {
+    -fx-position: absolute;
+    -fx-left: 0;
+    -fx-top: 0;
+    -fx-right: 0;
+    -fx-bottom: 0;
+    -fx-background-color: #222222;
+
+    -fx-filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+}

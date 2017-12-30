@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchormain" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.Fee.Fee_structureController">
+    <children>
+        <ScrollPane stylesheets="@../img/ss.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <AnchorPane fx:id="changesize" style="-fx-background-color: #eeeeee;">
+                    <children>
+                        <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <AnchorPane id="AnchorPane">
+                                    <children>
+                                        <AnchorPane style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="110.0">
+                                            <effect>
+                                                <DropShadow />
+                                            </effect>
+                                            <children>
+                                                <Text layoutX="141.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total" AnchorPane.bottomAnchor="10.28515625">
+                                                    <font>
+                                                        <Font name="Arial Black" size="12.0" />
+                                                    </font>
+                                                </Text>
+                                                <TableView fx:id="table" editable="true" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                    <columns>
+                                                        <TableColumn fx:id="noo" maxWidth="250.0" minWidth="58.0" prefWidth="145.0" text="Serial No." />
+                                                        <TableColumn fx:id="details" editable="false" minWidth="150.0" prefWidth="342.99993896484375" sortable="false" text="Details" />
+                                                        <TableColumn fx:id="amount" maxWidth="300.0" minWidth="120.0" onEditCommit="#changeAmount" prefWidth="135.0" sortable="false" text="Amount" />
+                                                    </columns>
+                                                    <columnResizePolicy>
+                                                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                                    </columnResizePolicy>
+                                                </TableView>
+                                                <Text fx:id="total" layoutX="526.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" AnchorPane.bottomAnchor="10.28515625" AnchorPane.rightAnchor="94.0" />
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                            <effect>
+                                                <DropShadow />
+                                            </effect>
+                                            <children>
+                                                <Button fx:id="b" layoutX="510.0" layoutY="29.0" mnemonicParsing="false" onAction="#submit" onKeyPressed="#buttonent" text="Button" AnchorPane.bottomAnchor="29.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="29.0" />
+                                                <Text layoutX="32.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branch" AnchorPane.leftAnchor="32.0" AnchorPane.topAnchor="33.0" />
+                                                <ComboBox fx:id="branch" layoutX="79.0" layoutY="29.0" onAction="#branch" prefHeight="25.0" prefWidth="101.0" promptText="Select One" AnchorPane.leftAnchor="79.0" AnchorPane.topAnchor="29.0" />
+                                                <Text layoutX="232.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semester" />
+                                                <ComboBox fx:id="semester" layoutX="292.0" layoutY="29.0" onAction="#semester" prefHeight="25.0" prefWidth="101.0" promptText="Select One" />
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </GridPane>
+
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

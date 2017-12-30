@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.StackedAreaChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.Admin_dashController" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+   <children>
+      <GridPane alignment="CENTER" hgap="20.0" prefHeight="570.0" style="-fx-background-color: #ffffff;" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="501.0" minWidth="10.0" prefWidth="455.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="473.0" minWidth="10.0" prefWidth="453.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="301.0" minHeight="10.0" prefHeight="301.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="296.0" prefWidth="454.0" style="-fx-background-color: #ffffff;">
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" />
+               </effect>
+               <children>
+                  <StackedAreaChart fx:id="admin_chart" layoutX="-13.0" layoutY="-87.0" prefHeight="301.0" prefWidth="455.0" title="Title" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <xAxis>
+                      <NumberAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </StackedAreaChart>
+               </children>
+            </AnchorPane>
+            <AnchorPane style="-fx-background-color: #ffffff;" GridPane.columnIndex="1">
+               <children>
+                  <Button fx:id="b" layoutX="76.0" layoutY="58.0" mnemonicParsing="false" onAction="#jd" prefHeight="25.0" prefWidth="52.0" text="Button" />
+                  <VBox fx:id="box" layoutX="76.0" layoutY="83.0" AnchorPane.bottomAnchor="93.0" AnchorPane.topAnchor="83.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane stylesheets="@../img/ss.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.Fee.Fee_mainController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" percentWidth="100" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+      <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <Button mnemonicParsing="false" onAction="#loadDashboard" prefHeight="43.0" prefWidth="156.0" text="Dashbord" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
+         <children>
+            <Button mnemonicParsing="false" onAction="#dash" prefHeight="46.0" prefWidth="156.0" text="Dashbord" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+         <children>
+            <Button mnemonicParsing="false" onAction="#emp" prefHeight="44.0" prefWidth="156.0" text="Employee" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+         <children>
+            <Button layoutY="-9.0" mnemonicParsing="false" onAction="#students" prefHeight="43.0" prefWidth="156.0" text="Students" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
+         <children>
+            <Button fx:id="account" mnemonicParsing="false" onAction="#fee" prefHeight="43.0" prefWidth="156.0" style="-fx-background-color: red;" text="Account Section" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane layoutX="10.0" layoutY="1010.0" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6">
+         <children>
+            <Button mnemonicParsing="false" onAction="#feestructure" prefHeight="46.0" prefWidth="156.0" text="Fee Structure" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

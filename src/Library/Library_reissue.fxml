@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="908.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Library.Library_reissueController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+         <GridPane.margin>
+            <Insets bottom="50.0" left="100.0" right="100.0" top="50.0" />
+         </GridPane.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <HBox layoutX="274.0" layoutY="128.0" prefHeight="355.0" prefWidth="708.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="355.0" prefWidth="351.0">
+                     <children>
+                        <Label layoutX="130.0" layoutY="29.0" text="Re-Issue Request" />
+                        <ImageView fitHeight="121.0" fitWidth="153.0" layoutX="99.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+                        <Separator layoutX="76.0" layoutY="64.0" prefWidth="200.0" />
+                        <Button fx:id="button_lib_reissue" layoutX="114.0" layoutY="287.0" mnemonicParsing="false" onAction="#reissueBooks" prefHeight="43.0" prefWidth="124.0" text="Re-Issue" />
+                        <Separator layoutX="76.0" layoutY="243.0" prefWidth="200.0" />
+                        <Separator layoutX="131.0" layoutY="261.0" prefHeight="3.0" prefWidth="91.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="355.0" prefWidth="351.0">
+                     <children>
+                        <Label layoutX="62.0" layoutY="14.0" text="Student / Teacher ID" />
+                        <Label layoutX="62.0" layoutY="83.0" text="Book 1" />
+                        <Label layoutX="62.0" layoutY="146.0" text="Book 2" />
+                        <Label layoutX="62.0" layoutY="204.0" text="Book 3" />
+                        <Label layoutX="62.0" layoutY="276.0" text="Book 4" />
+                        <Separator layoutX="62.0" layoutY="67.0" prefWidth="200.0" />
+                        <Separator layoutX="62.0" layoutY="136.0" prefWidth="200.0" />
+                        <Separator layoutX="62.0" layoutY="195.0" prefWidth="200.0" />
+                        <Separator layoutX="62.0" layoutY="258.0" prefWidth="200.0" />
+                        <Separator layoutX="62.0" layoutY="330.0" prefWidth="200.0" />
+                        <TextField fx:id="textField_lib_reid" layoutX="62.0" layoutY="35.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" />
+                        <TextField fx:id="textField_lib_reb1" layoutX="62.0" layoutY="104.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" />
+                        <TextField fx:id="textField_lib_reb2" layoutX="62.0" layoutY="162.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" />
+                        <TextField fx:id="textField_lib_reb3" layoutX="62.0" layoutY="225.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" />
+                        <TextField fx:id="textField_lib_reb4" layoutX="62.0" layoutY="297.0" prefHeight="31.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

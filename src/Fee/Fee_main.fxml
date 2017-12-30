@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fee.Fee_mainController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="320.0" stylesheets="@../img/ss.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <GridPane layoutY="-14.0" minHeight="720.0" minWidth="1300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" percentWidth="20.0" />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+                  <ColumnConstraints />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints />
+                             <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="9.0" minHeight="8.0" percentHeight="20.0" prefHeight="8.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="21.0" minHeight="20.0" percentHeight="20.0" prefHeight="21.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints percentHeight="20.0" vgrow="SOMETIMES" />
+                  <RowConstraints />
+                  <RowConstraints />
+              </rowConstraints>
+               <children>
+                  <AnchorPane pickOnBounds="false" prefHeight="141.0" prefWidth="1450.0" styleClass="titleupper" stylesheets="@../img/ss.css" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" GridPane.rowSpan="10" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="nav" GridPane.columnSpan="6" GridPane.rowIndex="11" GridPane.rowSpan="2147483647">
+                     <children>
+                        <GridPane prefHeight="720.0" prefWidth="156.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" percentWidth="50" />
+                              <ColumnConstraints hgrow="SOMETIMES" percentWidth="50" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints percentHeight="80" vgrow="SOMETIMES" />
+                              <RowConstraints percentHeight="20" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <AnchorPane GridPane.columnSpan="2">
+                                 <children>
+                                    <GridPane layoutX="-22.0" layoutY="6.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" percentWidth="100" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                          <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                             <children>
+                                                <Button mnemonicParsing="false" onAction="#loadDashboard" prefHeight="43.0" prefWidth="156.0" text="Dashboard" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
+                                             <children>
+                                                <Button mnemonicParsing="false" onAction="#printreceipt" prefHeight="46.0" prefWidth="156.0" text="Print Receipt" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                             <children>
+                                                <Button mnemonicParsing="false" onAction="#pay" prefHeight="44.0" prefWidth="156.0" text="Pay Fee" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+                                             <children>
+                                                <Button layoutY="-9.0" mnemonicParsing="false" onAction="#viewreport" prefHeight="43.0" prefWidth="156.0" text="View Report" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
+                                             <children>
+                                                <Button mnemonicParsing="false" onAction="#feestructure" prefHeight="43.0" prefWidth="156.0" text="Fee Structure" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="1">
+                                 <children>
+                                    <StackPane layoutX="4.0" layoutY="-6.0" prefHeight="144.0" prefWidth="208.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <Label text="APE" textFill="WHITE" StackPane.alignment="TOP_CENTER">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <ImageView fitHeight="58.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+                                             <image>
+                                                <Image url="@../img/icon.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <Label text="copyright @ ideautic.com" textAlignment="CENTER" textFill="#b9b9b9" wrapText="true" StackPane.alignment="BOTTOM_CENTER">
+                                             <StackPane.margin>
+                                                <Insets bottom="10.0" />
+                                             </StackPane.margin>
+                                          </Label>
+                                       </children>
+                                    </StackPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="mainscreentitle" GridPane.columnIndex="9" GridPane.columnSpan="38" GridPane.rowIndex="6" GridPane.rowSpan="5">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <GridPane layoutX="-9.0" layoutY="-10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" percentWidth="20.0" prefWidth="0.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+                                 <children>
+                                    <StackPane layoutX="-51.0" layoutY="-40.0" prefHeight="110.0" prefWidth="149.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <MenuButton alignment="CENTER" mnemonicParsing="false" styleClass="dropdown" text="admin" textAlignment="CENTER" StackPane.alignment="CENTER">
+                                            <items>
+                                              <MenuItem mnemonicParsing="false" styleClass="menuitem" text="Action 1" />
+                                              <MenuItem mnemonicParsing="false" styleClass="menuitem" text="Action 2" />
+                                            </items>
+                                             <effect>
+                                                <Blend />
+                                             </effect>
+                                          </MenuButton>
+                                       </children>
+                                    </StackPane>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="title" alignment="CENTER" layoutX="73.0" layoutY="35.0" text="Dashboard" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane GridPane.columnIndex="1">
+                                 <children>
+                                    <Label fx:id="title1" alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                        <Separator prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane id="anchor" fx:id="anchorMain" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="9" GridPane.columnSpan="38" GridPane.rowIndex="11" GridPane.rowSpan="2147483647">
+                     <effect>
+                        <DropShadow height="0.0" radius="4.75" />
+                     </effect>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="6" GridPane.rowIndex="1" GridPane.rowSpan="10">
+                     <children>
+                        <StackPane prefHeight="147.0" prefWidth="208.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <ImageView fitHeight="62.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                 <image>
+                                    <Image url="@../img/avatar_1.png" />
+                                 </image>
+                                 <StackPane.margin>
+                                    <Insets top="10.0" />
+                                 </StackPane.margin>
+                              </ImageView>
+                              <Label fx:id="name" text="Shubham Agasty" textFill="WHITE" StackPane.alignment="CENTER">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <StackPane.margin>
+                                    <Insets top="40.0" />
+                                 </StackPane.margin>
+                              </Label>
+                              <Label fx:id="id" text="0203cs131044" textFill="#bfb7b7" StackPane.alignment="BOTTOM_CENTER">
+                                 <StackPane.margin>
+                                    <Insets bottom="20.0" />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </StackPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
